@@ -42,12 +42,10 @@
         centerMapOnResults;
 
       // Your Azure Maps client id for accessing your Azure Maps account.
-      // var azureMapsClientId = "e6b6ab59-eb5d-4d25-aa57-581135b927f0";
       fetch("config.json")
         .then((response) => response.text())
         .then((key) => {
           const azureMapsClientId = key.trim();
-          console.log("Azure Maps Client ID:", azureMapsClientId);
 
           // Initialize Azure Maps here using azureMapsClientId
         })
