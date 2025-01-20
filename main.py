@@ -10,7 +10,7 @@ def home():
     return jsonify({"message": "Welcome to the Disaster Relief Assistant API!"})
 
 
-from resources import *
+from controllers.resources import *
 
 if __name__ == "__main__":
     app.run(debug=True)

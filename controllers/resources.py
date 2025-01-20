@@ -15,7 +15,7 @@ def get_resources():
         "lat": latitude,
         "lon": longitude,
         "radius": 5000,
-        "subscription-key": "551kCyW9q2Ipw4XZEULUrJ0KOK7Cc3tiFXIbMIDLaW7zrxEJMgWoJQQJ99ALACYeBjF7GlPQAAAgAZMP3Y8d"
+        "subscription-key": "Azure-Maps-key"
     }
     response = requests.get(url, params=params)
     print(response.json())
